@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
   background: #1f2937;
   color: #faf9f8;
   font-size: 24px;
@@ -15,7 +15,29 @@ header {
 
 nav a {
   color: #e5e7eb;
-  margin-left: 20px;
+  margin-left: 30px;
   text-decoration: none;
   font-size: 18px;
+}
+
+.hero {
+  background: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 40px;
+  flex: 1 1 0%;
+  font-size: 48px;
+  font-weight: 900;
+  color: #faf9f8;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-left button {
+  color: #3882f6;
 }
