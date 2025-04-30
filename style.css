@@ -39,5 +39,24 @@ nav a {
 }
 
 .hero-left button {
-  color: #3882f6;
+  background: #3882f6;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.features {
+  padding: 40px;
+}
+
+.feature div {
+  display: flex;
+  justify-content: space-around;
+  background: #f5f5f5;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  border: 4px solid #3882f6;
 }
